@@ -16,4 +16,4 @@ $Last_name TEXT NOT NULL
 $email VARCHAR(50) NOT NULL
 $message TEXT NOT NULL)";
 mysqli_query($conn,$create_table);
-
+?>
