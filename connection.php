@@ -7,4 +7,4 @@ if($conn){
     echo("connected successfully!")
 }else($conn){
     echo("connection issue")
-    }
+}
