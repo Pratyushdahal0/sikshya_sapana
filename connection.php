@@ -5,4 +5,6 @@ $pwd=""
 $conn=mysqli_connect($server,$uname,$pwd)
 if($conn){
     echo("connected successfully!")
-}
+}else($conn){
+    echo("connection issue")
+    }
