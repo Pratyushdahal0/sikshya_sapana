@@ -1,5 +1,7 @@
+
 *{
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
@@ -99,9 +101,10 @@ button:hover {
     padding-left: 40px;
 }
 .main .text1{
+    margin-top: 25px;
     width: 450px;
     height: 150px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 7px rgb(204, 204, 202);
     display: flex;
     border-radius: 20px;
     position: relative;
@@ -194,6 +197,7 @@ button:hover {
 }
 .about{
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
     margin-left: 40px;
     display: flex;
    background-color: antiquewhite;
@@ -202,3 +206,46 @@ button:hover {
     max-width: 1500px;
     height: auto;
 }
+/* OurInfo ko css pratyush*/
+.ourInfo{
+    background-color: rgb(236,252,166);
+    max-width: 92%;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 60px;
+}
+.container {
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+.title {
+    padding-top: 20px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #0a2240;
+    margin-bottom: 20px;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stat-item {
+    text-align: center;
+    padding-top: 70px;
+}
+.stat-number {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0a2240;
+}
+.stat-text {
+    padding-top: 7px;
+    font-size: 16px;
+    color: #0a2240;
+    font-weight: 600;
+    
+}
+
