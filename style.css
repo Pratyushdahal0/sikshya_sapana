@@ -190,3 +190,13 @@ button:hover {
     font-weight: 600;
     line-height: 1;
 }
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    display: flex;
+   background-color: antiquewhite;
+    border-radius: 100px;
+    width: auto;
+    max-width: 1500px;
+    height: auto;
+}
