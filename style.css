@@ -34,7 +34,7 @@ button:hover {
    padding-left: 29px;
 }
 
-.navbar ul {
+.ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -195,6 +195,7 @@ button:hover {
     font-weight: 600;
     line-height: 1;
 }
+/* yo chain mero aaditya */
 .about{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
@@ -203,7 +204,7 @@ button:hover {
    background-color: antiquewhite;
     border-radius: 100px;
     width: auto;
-    max-width: 1500px;
+    max-width: 92%;
     height: auto;
 }
 /* OurInfo ko css pratyush*/
@@ -248,4 +249,22 @@ button:hover {
     font-weight: 600;
     
 }
-
+/* Aba mero Aaditya */
+footer{
+    text-align: center;
+    /* our info ra yesko same hoo */
+    /* background-color: rgb(236,252,166);
+    margin-left: 50px;
+    max-width: 92%;
+    margin-top: 150px;
+    border-radius: 60px;  */
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 25%;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    text-decoration:none;
+}
