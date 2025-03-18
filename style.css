@@ -34,7 +34,7 @@ button:hover {
    padding-left: 29px;
 }
 
-.ul {
+.navbar ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -195,19 +195,17 @@ button:hover {
     font-weight: 600;
     line-height: 1;
 }
-/* yo chain mero aaditya */
 .about{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
     margin-left: 40px;
     display: flex;
-   background-color: antiquewhite;
     border-radius: 100px;
     width: auto;
-    max-width: 92%;
+    max-width: 1500px;
     height: auto;
 }
-/* OurInfo ko css pratyush*/
+/*=======================================OurInfo ko css pratyush =======================================*/
 .ourInfo{
     background-color: rgb(236,252,166);
     max-width: 92%;
@@ -215,7 +213,7 @@ button:hover {
     margin-left: 50px;
     border-radius: 60px;
 }
-.container {
+.containerPratyush{
     padding: 40px;
     border-radius: 20px;
     text-align: center;
@@ -249,36 +247,70 @@ button:hover {
     font-weight: 600;
     
 }
-/* Aba mero Aaditya */
-footer{
-    text-align: center;
-    /* our info ra yesko same hoo */
-    /* background-color: rgb(236,252,166);
-    margin-left: 50px;
-    max-width: 92%;
-    margin-top: 150px;
-    border-radius: 60px;  */
-}
-.nav{
+.containerPratyushOne {
     display: flex;
-    justify-content: space-evenly;
-    padding: 30px 25%;
-    width: 50%;
     align-items: center;
-    list-style: none;
-    text-decoration:none;
-}
-body {
-    background-color: white;
-    background-size: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f0ffae;
+    padding: 50px;
+    border-radius: 60px;
+    max-width: 86%;
+    margin: 50px auto;
+    position: relative;
 }
 
-.container {
+.textContent {
+    max-width: 50%;
+}
+
+.textContent h1 {
+    font-size: 36px;
+    color: #002766;
+}
+
+.textContent p {
+    font-size: 16px;
+    color: #333;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btnOne {
+    background-color: #002766;
+    color: #fff;
+}
+
+.btnSecond {
+    border: 2px solid #002766;
+    background: transparent;
+    color: #002766;
+}
+
+.imageContainer {
+    width: 40%;
+}
+
+.imageContainer img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*=======================================CSS NEXT=============================== */
+.containerSudip {
+    margin-left: 100px;
     max-width: 1200px;
     width: 100%;
     text-align: center;
