@@ -454,3 +454,6 @@ footer{
     list-style: none;
     text-decoration:none;
 }
+.nav li{
+    text-decoration: none;
+}
